@@ -9,8 +9,8 @@
 #
 #
 #Import Export-Excel
-write-output "Installing ImportExcel Module. Visit https://github.com/dfinke/ImportExcel and https://www.powershellgallery.com/packages/ImportExcel/7.1.1 for more information. 
-Install-Module ImportExcel -Repository PsGallery -Force -AllowClobber"
+write-output "Installing ImportExcel Module. Visit https://github.com/dfinke/ImportExcel and https://www.powershellgallery.com/packages/ImportExcel/7.1.1 for more information." 
+Install-Module ImportExcel -Repository PsGallery -Force -AllowClobber
 
 write-output "Be sure you are connected to the O365 domain before running this script! Any errors beyond this point are likely related to that if you get any."
 
